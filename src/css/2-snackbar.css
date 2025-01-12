@@ -1,0 +1,85 @@
+.form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.label-delay {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.input-delay {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.input-delay:hover {
+  border-color: #000000;
+}
+
+.input-delay:active,
+.input-delay:focus {
+  border-color: #4e75ff;
+}
+.fieldset {
+  width: 360px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.legend {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label-state {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  align-items: center;
+}
+.input-state {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.submit-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: 40px;
+  border: none;
+  background-color: #4e75ff;
+}
+.submit-button:hover,
+.submit-button:focus {
+  background-color: #6c8cff;
+}
